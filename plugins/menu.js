@@ -144,7 +144,7 @@ ${wish()}, ${name}
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(menu|help|valor|command|commands)$/i
+handler.command = /^(dhfwgjkuv)$/i
 
 handler.exp = 3
 
