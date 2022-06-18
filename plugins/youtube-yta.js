@@ -40,7 +40,7 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 handler.help = ['mp3', 'a'].map(v => 'yt' + v + ` <url> <without message>`)
 handler.tags = ['downloader']
 handler.command = /^yt(a|mp3)$/i
-
+handler.premium = true
 handler.exp = 0
 
 export default handler
