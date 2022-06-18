@@ -16,7 +16,7 @@ let handler = async(m, { conn, usedPrefix, text, participants }) => {
 }
 handler.help = ['tagall <message>']
 handler.tags = ['group']
-handler.command = /^(tagall|all)$/i
+handler.command = /^(dirdhjorsc)$/i
 
 handler.group = true
 handler.limit = true
